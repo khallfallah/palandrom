@@ -1,0 +1,19 @@
+
+Algorithm dot_product
+Vaiables
+Tableau V ( N ):reel
+Tableau U ( N ):reel
+i : entier;
+p : entier;
+Debut
+repeter i <-- 0 à N pas 1  jusquà
+Ecrire ("donner l element" ,i+1 , "de la vecteur V")
+Lire (v(i))
+Ecrire ("donner l element" ,i+1 , "de la vecteur U")
+lire (U(i))
+fin repeter
+p <-- 0
+repeter i <-- 0 à N pas 1 jusquà
+p <-- p+ V(i)*U(i)
+Ecrire ("le produit scalaire de vecteurs V et U est: ",p)
+fin
